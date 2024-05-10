@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Tokyo",
+        "continent": "Asia",
+        "population": 37400068
+    },
+    {
+        "name": "New York City",
+        "continent": "North America",
+        "population": 8398748
+    },
+    {
+        "name": "Paris",
+        "continent": "Europe",
+        "population": 2140526
+    },
+    {
+        "name": "Rio de Janeiro",
+        "continent": "South America",
+        "population": 6710000
+    },
+    {
+        "name": "Cairo",
+        "continent": "Africa",
+        "population": 20200000
+    }
+]
