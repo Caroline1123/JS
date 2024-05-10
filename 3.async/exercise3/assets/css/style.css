@@ -59,7 +59,7 @@ button {
 button:hover {
   transform: scale(105%);
   color: black;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   transition: ease 0.5s;
 }
 
