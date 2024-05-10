@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <style>
+        form {
+            border: 1px solid black;
+            padding: 10px;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 13vh;
+            width: 30vw;
+        }
+    </style>
+    <title>Exercise 2</title>
+</head>
+<body>
+    <form>
+        <input id="nameField" type="text" placeholder="Type in a name" autofocus>
+        <div class="country-selection">
+            <label for="country">Select a country:</label>
+            <select name="country" id="country">
+                <option value="BE" selected>Belgium</option>
+                <option value="GB">United-Kingdom</option>
+                <option value="US">United States</option>
+                <option value="DE">Germany</option>
+                <option value="FR">France</option>
+            </select>
+        </div>
+        <button id="submit" type="submit">Search</button>
+    </form>
+</body>
+</html>
